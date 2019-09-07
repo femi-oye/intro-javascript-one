@@ -1,0 +1,16 @@
+ls - lists all files and directory in a given location
+cd - change directory
+mkdir - create folder in current directory
+touch - creates a file in the current directory
+ls -a = show all files and hidden files
+
+Git add . = push local git repo to Github account
+
+. = current directory
+.. = one directory up
+
+git init = initializes local git repo
+
+A local git repo was created in the JavaScript_Bode folder. That local git repo has no relationship to any other folders outside of the JavaScript_Bode folder
+
+.gitignore file that was created = ignores hidden files
