@@ -5,3 +5,7 @@ h1 {
 .title {
     text-align: center;
 }
+
+.git {
+    text-decoration: underline;
+}
