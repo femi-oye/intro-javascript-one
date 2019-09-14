@@ -40,6 +40,13 @@ pets += 2 //same as pets = pets + 2
 const allowedPets = 5;
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
+if (adventurous == true){
+    console.log("Adventures are great!");
 
+}
 
 // if it's not true, console log "How about we stay home?"
+else {
+    console.log("How about we stay home?");
+}
+
