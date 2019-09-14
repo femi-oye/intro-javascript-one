@@ -7,7 +7,7 @@ let lastName = "Oye";
 
 // 3 - Create a third variable called fullName, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-let fullName = firstName + lastName;
+let fullName = firstName +" "+ lastName;
 
 // 4 - Console log the value of fullName
 console.log(fullName);
@@ -18,7 +18,7 @@ let age = 39;
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I am (age) years old.'.
 // Refer back to the videos if you need help with this one.
-console.log("My name is" + fullName, + "and I am" + age + "years old.")
+console.log("My name is " + fullName + " and I am " + age + " years old.")
 
 // 7 - Create a variable named adventurous and set it to a boolean value (true or false)
 let adventurous = true
@@ -50,3 +50,51 @@ else {
     console.log("How about we stay home?");
 }
 
+// CLASS NOTES:
+// && = and
+// || = or
+// > greater than
+// < less than
+// >= greater than or equals to
+// <= less than or equals to
+// !=
+
+// STRETCH GOALS:
+// 14 - Create a compound conditional: if age is greater than 18 and adventurous is true,
+// console log "Hurray!"
+if ((age > 18) && (adventurous)){
+    console.log("Hurray!")
+    }
+else{
+    console.log("Not Hurray!")
+}
+
+let numArray = [1, 3, 6, 5];
+numArray.push(24)
+numArray.push("nubu")
+console.log(numArray.length)
+console.table(numArray)
+
+// CLASS 2 ASSIGNMENTS
+// 15 - Write a conditional that console logs "I can have more pets!"
+//if the value of pets is less than the value of allowedPets,
+if (pets < allowedPets){
+    console.log("I can have more pets!")
+}
+
+// console logs "I have enough pets" if the value of pets is equal to the value of allowedPets,
+if (pets == allowedPets){
+    console.log("I have enough pets")
+}
+// and console logs "Oh no, I have too many pets!"
+// if the value of pets is greater than the value of allowedPets.
+if (pets > allowedPets){
+    console.log("Oh no, I have too many pets!")
+}
+
+// 16 - Write a conditional that assigns the value of the pets variable
+// to a new variable called mostPets IF pets is greater than friendsPets.
+// If friendsPets is greater than pets, assign the value of the friendsPets
+// variable to mostPets. Console log the value of mostPets.
+
+// READ ARRAYS, FUNCTIONS, FOR LOOPS
