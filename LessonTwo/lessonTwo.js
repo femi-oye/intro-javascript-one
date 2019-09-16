@@ -28,10 +28,10 @@ let adventurous = true
 let food = "pho";
 
 // 9 - Create a variable called pets and set it to the value of the number of pets you have
-let pets = 0;
+let pets = 12;
 
 // 10 - Create a variable called friendsPets and assign it the value of the number of pets your friend has
-let friendsPets = 2;
+let friendsPets = 20;
 
 // 11 - Add two pets to your pets variable
 pets += 2 //same as pets = pets + 2
@@ -84,7 +84,7 @@ if (pets < allowedPets){
 
 // console logs "I have enough pets" if the value of pets is equal to the value of allowedPets,
 if (pets == allowedPets){
-    console.log("I have enough pets")
+    console.log("I have enough petsf")
 }
 // and console logs "Oh no, I have too many pets!"
 // if the value of pets is greater than the value of allowedPets.
@@ -94,7 +94,22 @@ if (pets > allowedPets){
 
 // 16 - Write a conditional that assigns the value of the pets variable
 // to a new variable called mostPets IF pets is greater than friendsPets.
+if (pets > friendsPets){
+    let mostPets = pets;
+    console.log("mostPets equals: " + mostPets)
+}
+else{
+    console.log("mostPets is not equal to pets")
+}
+
 // If friendsPets is greater than pets, assign the value of the friendsPets
 // variable to mostPets. Console log the value of mostPets.
+if (friendsPets > pets){
+    let mostPets = friendsPets;
+    console.log("friendsPets equals: " + mostPets)
+}
+else{
+    console.log("mostPets is not equal to friendPets")
+}
 
 // READ ARRAYS, FUNCTIONS, FOR LOOPS
