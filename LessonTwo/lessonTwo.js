@@ -113,3 +113,30 @@ else{
 }
 
 // READ ARRAYS, FUNCTIONS, FOR LOOPS
+
+// ADDITIONAL CLASS 2 ASSIGNMENTS - ARRAYS
+
+// Declare two empty arrays named: days_of_the_week and my_schedule
+let days_of_the_week = [];
+let my_schedule = [];
+
+// Push the days of the week into days_of_the_week. Fill the other array with your work schedule.
+days_of_the_week.push('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
+console.log(days_of_the_week.length);
+console.table(days_of_the_week);
+
+my_schedule.push('Monday: 8am-4pm', 'Tuesday: 8am-4pm', 'Wednesday: 8am-4pm', 'Thursday: 8am-4pm', 'Friday: 8am-4pm')
+console.log(my_schedule.length);
+console.table(my_schedule);
+
+// Write a compound conditional to check if you work on the Monday and Friday, if true, 
+// console log Yes I am on the schedule, else log out I am off.
+
+// ADDITIONAL ARRAYS/JAVASCRIPT RESOURCES:
+// Links for Javascript materials:
+// https://developer.mozilla.org/en-US/docs/Web/javascript
+ 
+// Arrays:
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+
