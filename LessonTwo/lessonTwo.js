@@ -133,7 +133,17 @@ console.table(my_schedule);
 // Write a compound conditional to check if you work on the Monday and Friday, if true, 
 // console log Yes I am on the schedule, else log out I am off.
 
-if ((my_schedule[0] == 'Monday') && (my_schedule[5] == 'Friday')){
+// First attempt below was incorrect
+// if ((my_schedule[0] == 'Monday') && (my_schedule[5] == 'Friday')){
+//    console.log("Yes I am on the schedule!")
+//    }
+// else {
+//    console.log("I am off")
+// }
+
+// Second attempt below is correct
+
+if ((my_schedule[0] == days_of_the_week[0]) && (my_schedule[my_schedule.length-1] == days_of_the_week[my_schedule.length-1])){
     console.log("Yes I am on the schedule!")
     }
 else {
