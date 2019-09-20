@@ -125,12 +125,20 @@ days_of_the_week.push('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'S
 console.log(days_of_the_week.length);
 console.table(days_of_the_week);
 
-my_schedule.push('Monday: 8am-4pm', 'Tuesday: 8am-4pm', 'Wednesday: 8am-4pm', 'Thursday: 8am-4pm', 'Friday: 8am-4pm')
+
+my_schedule.push('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday')
 console.log(my_schedule.length);
 console.table(my_schedule);
 
 // Write a compound conditional to check if you work on the Monday and Friday, if true, 
 // console log Yes I am on the schedule, else log out I am off.
+
+if ((my_schedule[0] == 'Monday') && (my_schedule[5] == 'Friday')){
+    console.log("Yes I am on the schedule!")
+    }
+else {
+    console.log("I am off")
+}
 
 // ADDITIONAL ARRAYS/JAVASCRIPT RESOURCES:
 // Links for Javascript materials:
@@ -139,4 +147,10 @@ console.table(my_schedule);
 // Arrays:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
+// Loops : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
 
+// for in loops : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement
+
+// for of loops: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement
+
+// functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
